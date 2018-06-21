@@ -14,5 +14,6 @@ namespace MVCEFRazorAssessment.Models {
 		public int OwnerId { get; set; }
 		public virtual Owner Owner { get; set; }
 
+		public Vehicle() { }
 	}
 }

@@ -15,6 +15,7 @@ namespace MVCEFRazorAssessment.Controllers
     {
         private Assessment1DBContext db = new Assessment1DBContext();
 
+		//GET: VehiclesForOwner
 		//Gets all of the vehicles owned by a selected owner
 		public ActionResult VehiclesForOwner(int? id) {
 			VehiclesForOwner vehiclesForOwner = new VehiclesForOwner();

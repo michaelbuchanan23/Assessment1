@@ -10,5 +10,7 @@ namespace MVCEFRazorAssessment.Models {
 		public string Name { get; set; }
 		public string City { get; set; }
 		public string State { get; set; }
+
+		public Owner() { }
 	}
 }
